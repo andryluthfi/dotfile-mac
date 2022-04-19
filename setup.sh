@@ -4,6 +4,7 @@ brew install spectacle --cask
 brew install stats --cask
 
 brew install git
+brew install bat
 brew install brew-php-switcher
 
 brew tap shivammathur/php
