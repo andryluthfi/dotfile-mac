@@ -11,6 +11,9 @@ brew install brew-php-switcher
 
 brew tap shivammathur/php
 brew tap mongodb/brew
+brew tap homebrew/cask-fonts
+
+brew install --cask font-hack-nerd-font
 
 brew install shivammathur/php/php@7.1
 brew install shivammathur/php/php@7.4
@@ -26,4 +29,5 @@ brew install watchman
 ln -s ~/.config/php/overide-php.ini /usr/local/etc/php/8.0/conf.d/overide-php.ini
 ln -s ~/.config/php/overide-php.ini /usr/local/etc/php/7.1/conf.d/overide-php.ini
 
+cp .zshrc.template ~/.zshrc
 source ~/.zshrc
